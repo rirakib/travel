@@ -84,3 +84,8 @@ var swiper = new Swiper(".brand-slider", {
         },
       },
 });
+
+
+$(window).on("load",function(){
+  $(".my_lodear").fadeOut(1000);
+});
